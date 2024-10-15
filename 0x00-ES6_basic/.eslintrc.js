@@ -18,6 +18,12 @@ module.exports = {
     },
     plugins: ['jest'],
     rules: {
+      'indent': ['error', 2],
+      'no-var': 'error',
+      'prefer-const': 'error',
+      'no-trailing-spaces': 'error',
+      // other rules...
+      
       'no-console': 'off',
       'no-shadow': 'off',
       'no-restricted-syntax': [
@@ -33,3 +39,4 @@ module.exports = {
       }
     ]
   };
+  
